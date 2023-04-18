@@ -10,6 +10,10 @@
 }
 
 .container > .row-short {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     width: 600px;
     margin: 0 calc(50% - 300px);
 }
@@ -25,16 +29,11 @@
     .container > .row {
         width: 600px;
         margin: 0 calc(50% - 300px);
-}
-@media (max-width: 700px) {
-    .container > .row, 
-    .container > .row-short {
-        width: 400px;
-        margin: 0 calc(50% - 200px); 
     }
 }
 
 @media (max-width: 700px) {
+    .container > .row, 
     .container > .row-short {
         width: 400px;
         margin: 0 calc(50% - 200px); 
@@ -53,3 +52,4 @@
         margin: 0;
     }
 }
+
