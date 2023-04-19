@@ -1,10 +1,23 @@
-
 /*base */
 @import '../base/base.css';
-@import '../base/layout.css'
+@import '../base/layout.css';
 
 /* 3rd-party*/
 
 /*components*/
 
 /*CUSTOMS STYLES BELONG THIS COMENT LINE*/
+
+.logo{
+    width: 50px;
+}
+
+.main-title {
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-description {
+    font-size: 20px;
+    text-align: center;
+}
