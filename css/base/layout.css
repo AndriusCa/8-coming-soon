@@ -17,7 +17,8 @@
 .container > .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 60px 10%;
+    justify-content: center;
+    gap: 60px 0;
     width: 1000px;
     margin: 0 calc(50% - 500px); 
 }
@@ -29,6 +30,18 @@
 .column.right-column {
     width: 40%;
     margin-left: auto;
+}
+ 
+footer.container {
+    padding-top: 0;
+}
+
+.row.socials {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1 px solid #fff;
+    padding: 20px 10;  
+    margin-bottom: 20px;  
 }
 
 
