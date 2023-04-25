@@ -14,6 +14,15 @@
 
 /*CUSTOMS STYLES BELONG THIS COMENT LINE*/
 
+.hero {
+  background-image: url(../../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
 .logo {
   width: 3rem;
 }
