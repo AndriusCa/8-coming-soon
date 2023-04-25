@@ -9,6 +9,7 @@
 /*components*/
 
 @import "../components/clocks.css";
+@import "../components/form.css";
 @import "../components/progress-bar.css";
 @import "../components/mouse.css";
 
