@@ -33,6 +33,7 @@
   text-transform: uppercase;
   text-align: center;
 }
+
 .main-description {
   font-size: 1.3rem;
   text-align: center;
@@ -63,7 +64,7 @@ footer.container {
 }
 .row.socials > a:hover {
   background-color: #fff;
-  color: #03a9f4;
+  color: var(--main-color);
 }
 
 footer.container > .row-short {
@@ -110,5 +111,11 @@ footer > .row-short a {
   }
   .text-trio > p::after {
     display: block;
+  }
+}
+
+@media (max-width: 22rem) {
+  .main-title {
+    font-size: 3.5rem;
   }
 }
